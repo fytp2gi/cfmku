@@ -60,3 +60,16 @@ proxies:
       headers: 
         Host: sg1-trojan.bonds.id
     udp: true
+  - name: usa
+    server: 104.16.66.85
+    port: 443
+    type: trojan
+    password: eb8c2b90-8d45-11ed-ad37-1239d0255272
+    skip-cert-verify: true
+    sni: us-trojan.bonds.id
+    network: ws
+    ws-opts:
+      path: /howdy
+      headers:
+        Host: us-trojan.bonds.id
+    udp: true
