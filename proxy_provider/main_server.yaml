@@ -1,9 +1,62 @@
 proxies:
-  - name: SG Weekly New
-    server: trojan1.udpgw.com
+  - name: sg1-v2ray.sshkit.org
+    server: 104.16.66.85
+    port: 80
+    type: vmess
+    uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1-v2ray.sshkit.org
+    network: ws
+    ws-opts:
+      path: /sshkit/5408923939/63b0902a4c1e7/
+      headers:
+        Host: sg1-v2ray.sshkit.org
+    udp: true
+  - name: jagoanssh-iyaksshh97-JAGOANSSH
+    server: 104.16.66.85
+    port: 80
+    type: vmess
+    uuid: 0100711f-6f9a-49cb-90b7-a30f2f04e78b
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg4-ray.ipservers.xyz
+    network: ws
+    ws-opts:
+      path: /JAGOANSSH/
+      headers:
+        Host: sg4-ray.ipservers.xyz
+    udp: true
+  - name: gaf145398
+    server: 104.16.66.85
+    port: 80
+    type: vmess
+    uuid: b49934b1-8ad7-451b-ab68-33f3fd86d250
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: false
+    servername: 
+    network: ws
+    ws-opts: 
+      path: /vmess
+      headers: 
+        Host: id2.zevesh.host
+    udp: true
+  - name: Simple-Sub
+    server: 104.16.66.85
     port: 443
     type: trojan
-    password: xxx-xxx-xxx-xxx-xxx
+    password: 0205e6d0-8c8e-11ed-8356-1239d0255272
     skip-cert-verify: true
-    sni: isibug.com
+    sni: sg1-trojan.bonds.id
+    network: ws
+    ws-opts: 
+      path: /howdy
+      headers: 
+        Host: sg1-trojan.bonds.id
     udp: true
